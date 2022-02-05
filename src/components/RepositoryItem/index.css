@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.repo-card {
+  width: 80%;
+  max-width: 270px;
+  background-color: #f8f8ff;
+  border-radius: 12px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  margin-bottom: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .repo-card {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+
+.avatar-image {
+  width: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  .avatar-image {
+    width: 88px;
+  }
+}
+
+.repo-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #e73959;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .repo-name {
+    font-size: 22px;
+  }
+}
+
+.details-container {
+  align-self: flex-start;
+}
+
+.details-content {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .details-content {
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+}
+
+.icon {
+  width: 14px;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 78px) {
+  .icon {
+    width: 20px;
+  }
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #1e293b;
+  margin: 0;
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 16px;
+  }
+}

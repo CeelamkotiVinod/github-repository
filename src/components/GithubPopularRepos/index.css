@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: 'Lobster';
+  color: #0f172a;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 44px;
+  }
+}
+
+.tabs-container {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 450px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs-container {
+    justify-content: space-between;
+  }
+}
+
+.repository-item-container {
+  padding-left: 0;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .repository-item-container {
+    justify-content: flex-start;
+  }
+}
+
+.failure-image {
+  width: 280px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-image {
+    width: 550px;
+  }
+}
+
+.failure-text {
+  font-family: 'Lobster';
+  font-size: 52px;
+  font-weight: bold;
+  color: #1e293b;
+}
